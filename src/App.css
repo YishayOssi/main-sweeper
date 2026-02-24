@@ -1,0 +1,153 @@
+body {
+  background: radial-gradient(circle, rgb(41, 83, 130) 0%, rgb(19, 27, 46) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  overflow: hidden; 
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  max-width: 600px;
+}
+
+
+.top-bar {
+  width: 100%;
+  background: rgba(42, 58, 84, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.top-bar h1 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.top-bar img {
+  width: 35px;
+  height: 35px;
+}
+
+
+.top-bar h3 {
+  color: rgb(77, 161, 110) !important;
+  font-size: 0.85rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.dice {
+  flex: 1;
+  background: rgba(42, 58, 84, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.dice h1 {
+  font-size: 1.3rem;
+  margin: 5px 0 0 0;
+}
+
+.internal h3 {
+  font-size: 0.75rem;
+  margin: 0;
+  color: #bdc3c7;
+}
+
+.internal img {
+  width: 18px;
+  height: 18px;
+}
+
+
+.text {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.15);
+  margin-bottom: 15px;
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.text h2 {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 3px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.cell {
+  width: 32px;
+  height: 32px;
+  background-color: #3e4451;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.restart {
+  margin-top: 15px;
+}
+
+button {
+  background: linear-gradient(135deg, #4d8b31 0%, #324e25 100%);
+  color: white;
+  padding: 8px 25px; 
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem; 
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button h1 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+
+ 
+ 
+
+
+
